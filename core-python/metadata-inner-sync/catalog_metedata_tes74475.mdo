@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0acd370f-7147-4023-8f8b-fca6df8b91cb">
+  <producedTypes>
+    <objectType typeId="8ce1aaf0-94f8-4a92-8f72-89ab45dff72e" valueTypeId="eb9320b5-5747-4e95-901b-1439fa9bd6ee"/>
+    <refType typeId="1fe2f3bf-b607-4be7-9cea-ced62c022a21" valueTypeId="075ece51-c675-4b29-b79b-845ef56597ac"/>
+    <selectionType typeId="85d808da-ea36-4778-8da3-928b1697eea2" valueTypeId="bfc40992-03d3-456c-af2a-569c2129921c"/>
+    <listType typeId="cd2625f2-76e0-4700-8169-caef6d0b09ee" valueTypeId="76766490-0f4e-4a43-991b-06adb4063be3"/>
+    <managerType typeId="d08c641e-baba-46fb-a748-4fbfddebdb20" valueTypeId="4b414e2c-d477-4772-af6c-23fe6e380b0d"/>
+  </producedTypes>
+  <name>tes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.tes.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.tes.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4f90c273-0e6d-43c8-baef-3f77e2f3c757">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a4cf7c65-67fb-446e-9606-4adc9b9ccbec">
+    <name>type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Type</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0bb98df1-c574-4885-beb8-48860075955e">
+    <name>type3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Type3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>101</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a4cf7c65-67fb-446e-9606-4adc9b8ccbec">
+    <name>type2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Type2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4f90c273-0e6d-43c8-baef-3f77e2f3c857">
+    <name>id555</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id-555 vscode added</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>29</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4f90c273-0e6d-43c8-baef-3f77e2f3c867">
+    <name>id777</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id-777 vscode added again</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>129</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="27bc1114-f9a4-4a03-979e-ea5f291600a5">
+    <name>check_python_core</name>
+    <synonym>
+      <key>ru</key>
+      <value>Check python core</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
