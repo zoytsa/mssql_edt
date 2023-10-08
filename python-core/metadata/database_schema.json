@@ -1,0 +1,154 @@
+{
+    "Tables": [
+        {
+            "name": "Config",
+            "columns": [
+                {
+                    "name": "FileName",
+                    "type": "nvarchar"
+                },
+                {
+                    "name": "Creation",
+                    "type": "datetime2"
+                },
+                {
+                    "name": "Modified",
+                    "type": "datetime2"
+                },
+                {
+                    "name": "Attributes",
+                    "type": "smallint"
+                },
+                {
+                    "name": "DataSize",
+                    "type": "bigint"
+                },
+                {
+                    "name": "BinaryData",
+                    "type": "varbinary"
+                },
+                {
+                    "name": "PartNo",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "ConfigSave",
+            "columns": [
+                {
+                    "name": "FileName",
+                    "type": "nvarchar"
+                },
+                {
+                    "name": "Creation",
+                    "type": "datetime2"
+                },
+                {
+                    "name": "Modified",
+                    "type": "datetime2"
+                },
+                {
+                    "name": "Attributes",
+                    "type": "smallint"
+                },
+                {
+                    "name": "DataSize",
+                    "type": "bigint"
+                },
+                {
+                    "name": "BinaryData",
+                    "type": "varbinary"
+                },
+                {
+                    "name": "PartNo",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "_RefOpt",
+            "columns": [
+                {
+                    "name": "_MDID",
+                    "type": "binary"
+                },
+                {
+                    "name": "_PDUpdMode",
+                    "type": "numeric"
+                }
+            ]
+        },
+        {
+            "name": "_CKindsOpt",
+            "columns": [
+                {
+                    "name": "_MDID",
+                    "type": "binary"
+                },
+                {
+                    "name": "_PDUpdMode",
+                    "type": "numeric"
+                }
+            ]
+        },
+        {
+            "name": "_AccOpt",
+            "columns": [
+                {
+                    "name": "_MDID",
+                    "type": "binary"
+                },
+                {
+                    "name": "_PDUpdMode",
+                    "type": "numeric"
+                }
+            ]
+        },
+        {
+            "name": "_Reference41",
+            "columns": [
+                {
+                    "name": "_IDRRef",
+                    "type": "binary"
+                },
+                {
+                    "name": "_Version",
+                    "type": "timestamp"
+                },
+                {
+                    "name": "_Marked",
+                    "type": "binary"
+                },
+                {
+                    "name": "_PredefinedID",
+                    "type": "binary"
+                },
+                {
+                    "name": "_Code",
+                    "type": "numeric"
+                },
+                {
+                    "name": "_Description",
+                    "type": "nvarchar"
+                },
+                {
+                    "name": "_Fld42",
+                    "type": "numeric"
+                },
+                {
+                    "name": "_Fld43",
+                    "type": "datetime2"
+                },
+                {
+                    "name": "_Fld44",
+                    "type": "nvarchar"
+                },
+                {
+                    "name": "_Fld45",
+                    "type": "nvarchar"
+                }
+            ]
+        }
+    ]
+}
